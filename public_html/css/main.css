@@ -1,0 +1,255 @@
+/***************
+ ** Universal **
+ ***************/
+ 
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 0;
+}
+
+article p {
+	text-align: justify;
+}
+
+article ul, article ol {
+	text-align: left;
+}
+
+/************************
+ ** Colors and Padding **
+ ************************/
+ 
+.header, .main, [class*="aside-"], .footer {
+	padding: 10px;
+	margin: 0;
+}
+
+.main {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.footer {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.header, .footer {
+	background-color: #9999ff;
+    color: #ffffff;
+}
+
+.aside-left {
+	padding: 0;
+	background-color: #b3b3ff;
+    color: #ffffff;
+}
+
+.aside-right {
+	background-color: #b3b3ff;
+    color: #ffffff;
+}
+
+a {
+	text-decoration: inherit;
+	color: #9999ff;
+}
+
+a:hover {
+	color: #b3b3ff;
+}
+
+.header a {
+	color: #ffffff;
+}
+
+nav {
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+	padding: 8px;
+	margin: 0;
+    background-color: #b3b3ff;
+    color: #ffffff;
+}
+
+nav a:hover {
+    background-color: #ccccff;
+    color: #ffffff;
+}
+
+label {
+	margin-bottom: 5px;
+}
+
+form section {
+	margin: 5px 0;
+}
+
+input, textarea {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #cecece;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+textarea {
+	height: 190px;
+}
+
+input:focus, textarea:focus {
+	outline-color: #9999ff;
+}
+
+table {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+th {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cecece;
+	text-align: left;
+}
+
+th, td {
+	padding: 5px;
+}
+
+.submit {
+	background-color: #b3b3ff;
+    color: #ffffff;
+	font-size: 20px;
+}
+
+.submit:hover {
+	opacity: 0.8;
+}
+
+hr {
+	border-top: 1px solid #b3b3ff;
+	opacity: 0.8;
+}
+
+/*************
+ ** Flexbox **
+ *************/
+
+nav {
+	flex: 1 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+nav a {
+	flex: 1 auto;
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+form section {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+form section label, form section input, form section textarea {
+	flex: 1;
+}
+
+.tabledate {
+	display: none;
+}
+
+.container-outer {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.container-inner {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.main {
+	flex: 1;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+@media all and (min-width: 800px) {
+	.container-inner {
+		flex-direction: row;
+	}
+	
+	[class*="aside-"] {
+		flex: 1 auto;
+	}
+	
+	.main {
+		flex: 10 0px;
+	}
+	
+	nav {
+		flex-direction: column;
+	}
+	
+	nav a {
+		margin-top: 2px;
+		background-color: #9999ff;
+		text-align: left;
+	}
+	
+	.footer, .header {
+		background-color: #b3b3ff;
+		background-color: #9999ff;
+	}
+	
+	.tabledate {
+		display: table-cell;
+	}
+}
+
+@media all and (min-width: 1280px) {
+	.main {
+		margin-left: 15vw;
+		margin-right: 15vw;
+	}
+}
+
+@media all and (min-width: 1600px) {
+	body {
+		font-size: 1vw;
+	}
+	.main {
+		font-size: 1vw;
+		margin-left: 18vw;
+		margin-right: 18vw;
+	}
+}
+@media all and (min-width: 1300px) {
+	.main {
+		flex: 11 0px;
+	}
+}
+
+@media all and (min-width: 1700px) {
+	.main {
+		flex: 12 0px;
+	}
+}

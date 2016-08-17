@@ -1,0 +1,39 @@
+php_value include_path ".:/home/cathony/www/ailurophiliac.com/include/php/:/home/cathony/www/ailurophiliac.com/vendor/"
+
+Options -indexes
+
+ErrorDocument 400 /httperror.php?err=400
+ErrorDocument 401 /httperror.php?err=401
+ErrorDocument 402 /httperror.php?err=402
+ErrorDocument 403 /httperror.php?err=403
+ErrorDocument 404 /httperror.php?err=404
+ErrorDocument 500 /httperror.php?err=500
+
+# compress text, html, javascript, css, xml:
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+ 
+# Or, compress certain file types by extension:
+<files *.php>
+SetOutputFilter DEFLATE
+</files>
+
+RewriteEngine On
+
+RewriteRule ^tagged/(.*)$ announcements/viewtag.php?id=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^announcements/(.*)$ announcements/viewpost.php?id=$1 [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [QSA,L]

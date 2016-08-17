@@ -1,0 +1,83 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 75px;
+}
+
+article {
+    text-align: justify;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #9999ff;
+}
+
+.footer p {
+    margin-top: 16px;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+a {
+    color: #9999ff;
+}
+
+a:hover, a:focus {
+    color: #b3b3ff;
+    text-decoration: none;
+}
+
+.blog-post-meta {
+    font-size: 1.125em;
+}
+
+.navbar {
+    background-color: #9999ff;
+    border: 0;
+}
+
+.navbar-default div.navbar-collapse {
+    border-top: none;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #b3b3ff;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #ffffff;
+    background-color: #b3b3ff;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #ffffff;
+    background-color: #b3b3ff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
