@@ -13,7 +13,7 @@ And the following on the server:
 
 ### Installation
 The following SQL code will initialize the database the blog uses:
-```
+```sql
 CREATE DATABASE IF NOT EXISTS cathony_blog DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE cathony_blog;
 
@@ -79,7 +79,7 @@ hashed password. Storing the password as plain text will cause it to not work.
 In order for the site to be able to use the database, you must created a file
 called dbinfo.json in the /include/php folder. This file must be structured as
 follows, containing the login information for your MySQL installation.
-```
+```json
 {
     "username" : "your username here",
     "password" : "your password here"
