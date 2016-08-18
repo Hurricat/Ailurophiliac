@@ -5,6 +5,13 @@
 						<p>ChuChu is a Discord Bot written in Python 3.5 using the <a href="https://github.com/Rapptz/discord.py">discord.py</a> library.</p>
 						<p>For more information, see the <a href="/about">About Page</a>.</p>
 					</article>
+					<article>
+						<h3>Tags</h3>
+						<ul>
+							<li><a href="/tagged/ChuChu Bot">ChuChu Bot</a></li>
+							<li><a href="/tagged/Site">Site</a></li>
+						</ul>
+					</article>
 				</div>
 			</div>
 		</div>
