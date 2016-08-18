@@ -7,9 +7,9 @@
 					</article>
 					<article>
 						<h3>Tags</h3>
-						<ul>
-							<a href="/tagged/chuchu-bot">ChuChu Bot</a>
-							<a href="/tagged/site">Site</a>
+						<ul class="list-group">
+							<li class="list-group-item"><a href="/tagged/chuchu-bot">ChuChu Bot</a></li>
+							<li class="list-group-item"><a href="/tagged/site">Site</a></li>
 						</ul>
 					</article>
 				</div>
