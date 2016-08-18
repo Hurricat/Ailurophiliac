@@ -8,8 +8,8 @@
 					<article>
 						<h3>Tags</h3>
 						<ul>
-							<li><a href="/tagged/ChuChu Bot">ChuChu Bot</a></li>
-							<li><a href="/tagged/Site">Site</a></li>
+							<a href="/tagged/chuchu-bot">ChuChu Bot</a>
+							<a href="/tagged/site">Site</a>
 						</ul>
 					</article>
 				</div>
