@@ -1,4 +1,4 @@
 <?php
-	require("functions.php");
-	render("projects.php", ['title'=>'Projects']);
+    require("functions.php");
+    render("projects.php", ['title'=>'Projects']);
 ?>

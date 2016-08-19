@@ -1,4 +1,4 @@
 <?php
-	require("functions.php");
-	redirect("/announcements");
+    require("functions.php");
+    redirect("/announcements");
 ?>

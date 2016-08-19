@@ -1,21 +1,21 @@
-	    </div>
-		<div class="col-sm-3 col-sm-offset-1">
-		    <article>
-			<h3>About</h3>
-			<p>ChuChu is a Discord Bot written in Python 3.5 using the <a href="https://github.com/Rapptz/discord.py">discord.py</a> library.</p>
-			<p>For more information, see the <a href="/about">About Page</a>.</p>
-		    </article>
-		    <article>
-			<h3>Tags</h3>
-			<ul class="list-group">
-			    <li class="list-group-item"><a href="/tagged/chuchu-bot">ChuChu Bot</a></li>
-			    <li class="list-group-item"><a href="/tagged/site">Site</a></li>
-			</ul>
-		    </article>
-		</div>
-	    </div>
-	</div>
-	<footer class="footer">
+            </div>
+            <div class="col-sm-3 col-sm-offset-1">
+                <article>
+                    <h3>About</h3>
+                    <p>ChuChu is a Discord Bot written in Python 3.5 using the <a href="https://github.com/Rapptz/discord.py">discord.py</a> library.</p>
+                    <p>For more information, see the <a href="/about">About Page</a>.</p>
+                </article>
+                <article>
+                    <h3>Tags</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="/tagged/chuchu-bot">ChuChu Bot</a></li>
+                        <li class="list-group-item"><a href="/tagged/site">Site</a></li>
+                    </ul>
+                </article>
+            </div>
+            </div>
+        </div>
+        <footer class="footer">
             <div class="container">
                 <p class="text-muted">&copy; 2016 Anthony Gilson</p>
             </div>

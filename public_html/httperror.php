@@ -1,4 +1,4 @@
 <?php
-	require("functions.php");
-	httperror($_GET['err']);
+    require("functions.php");
+    httperror($_GET['err']);
 ?>
