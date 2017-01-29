@@ -17,7 +17,7 @@
         </div>
         <footer class="footer">
             <div class="container">
-                <p class="text-muted">&copy; 2016 Anthony Gilson</p>
+                <p class="text-muted">&copy; 2016 Cat G.</p>
             </div>
         </footer>
         <script>
